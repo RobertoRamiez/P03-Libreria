@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medio</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  .draggable { width: 213px; height: 191px; float: left; margin: 0 10px 10px 0; font-size: .9em; }
+  .ui-widget-header p, .ui-widget-content p { margin: 0; }
+  #snaptarget { height: 958px; width: 640px;}
+  </style>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+  <!-- jQuery usado: Draggable -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="principal.html" style="color: white; font-family: 'Josefin Sans', sans-serif;">Inicio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+
+<center>
+<div id="snaptarget" class="ui-widget-header">
+  <p><img src="img/Mexico.jpg" alt=""></p>
+</div>
+ 
+<br style="clear:both">
+ 
+<div id="draggable1" class="draggable ui-widget-content">
+  <p><img src="img/Mexico1.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable2" class="draggable ui-widget-content">
+  <p><img src="img/Mexico5.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable3" class="draggable ui-widget-content">
+  <p><img src="img/Mexico3.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable4" class="draggable ui-widget-content">
+  <p><img src="img/Mexico7.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable5" class="draggable ui-widget-content">
+  <p><img src="img/Mexico2.jpg" alt=""></p>
+</div>
+
+<div id="draggable6" class="draggable ui-widget-content">
+  <p><img src="img/Mexico8.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable7" class="draggable ui-widget-content">
+  <p><img src="img/Mexico9.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable8" class="draggable ui-widget-content">
+  <p><img src="img/Mexico4.jpg" alt=""></p>
+</div>
+ 
+<div id="draggable9" class="draggable ui-widget-content">
+  <p><img src="img/Mexico6.jpg" alt=""></p>
+</div>
+
+<div id="draggable10" class="draggable ui-widget-content">
+    <p><img src="img/Mexico15.jpg" alt=""></p>
+</div>
+
+<div id="draggable11" class="draggable ui-widget-content">
+    <p><img src="img/Mexico13.jpg" alt=""></p>
+</div>  
+
+<div id="draggable12" class="draggable ui-widget-content">
+    <p><img src="img/Mexico11.jpg" alt=""></p>
+</div>  
+
+<div id="draggable13" class="draggable ui-widget-content">
+    <p><img src="img/Mexico10.jpg" alt=""></p>
+</div>  
+
+<div id="draggable14" class="draggable ui-widget-content">
+    <p><img src="img/Mexico12.jpg" alt=""></p>
+</div>  
+
+<div id="draggable15" class="draggable ui-widget-content">
+    <p><img src="img/Mexico14.jpg" alt=""></p>
+</div>  
+</center>
+ 
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#draggable1" ).draggable({ snap: true });
+  $( "#draggable2" ).draggable({ snap: true });
+  $( "#draggable3" ).draggable({ snap: true });
+  $( "#draggable4" ).draggable({ snap: true });
+  $( "#draggable5" ).draggable({ snap: true });
+  $( "#draggable6" ).draggable({ snap: true });
+  $( "#draggable7" ).draggable({ snap: true });
+  $( "#draggable8" ).draggable({ snap: true });
+  $( "#draggable9" ).draggable({ snap: true });
+  $( "#draggable10" ).draggable({ snap: true });
+  $( "#draggable11" ).draggable({ snap: true });
+  $( "#draggable12" ).draggable({ snap: true });
+  $( "#draggable13" ).draggable({ snap: true });
+  $( "#draggable14" ).draggable({ snap: true });
+  $( "#draggable15" ).draggable({ snap: true });
+} );
+</script>
+
+</body>
+</html>
